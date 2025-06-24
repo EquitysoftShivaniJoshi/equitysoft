@@ -1,0 +1,56 @@
+# ---------------------------------------
+# WordPress Core (optional to ignore)
+# Uncomment if you're tracking only wp-content
+# ---------------------------------------
+# wp-admin/
+# wp-includes/
+
+# ---------------------------------------
+# WordPress Content (keep themes/plugins you're developing)
+# Ignore these if not relevant
+# ---------------------------------------
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/ai1wm-backups/
+wp-content/backups/
+
+# Ignore all themes except your custom one (edit to match yours)
+# Replace `your-theme-name` with your theme folder
+wp-content/themes/*
+!wp-content/themes/your-theme-name/
+
+# Ignore all plugins except your custom one (edit to match yours)
+# Replace `your-plugin-name` with your plugin folder
+wp-content/plugins/*
+!wp-content/plugins/your-plugin-name/
+
+# ---------------------------------------
+# Sensitive Config / Local Setup
+# ---------------------------------------
+wp-config.php
+wp-config-sample.php
+.htaccess
+.env
+
+# Local development tools / build folders
+node_modules/
+vendor/
+dist/
+build/
+
+# ---------------------------------------
+# System / IDE / OS files
+# ---------------------------------------
+.DS_Store
+Thumbs.db
+*.log
+*.sql
+*.zip
+
+# VSCode settings (optional)
+.vscode/
+
+# Composer / npm lock files (optional)
+composer.lock
+package-lock.json
