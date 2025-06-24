@@ -18,12 +18,11 @@ wp-content/backups/
 # Ignore all themes except your custom one (edit to match yours)
 # Replace `your-theme-name` with your theme folder
 wp-content/themes/*
-!wp-content/themes/your-theme-name/
+!wp-content/themes/equitysoft/
 
 # Ignore all plugins except your custom one (edit to match yours)
 # Replace `your-plugin-name` with your plugin folder
 wp-content/plugins/*
-!wp-content/plugins/your-plugin-name/
 
 # ---------------------------------------
 # Sensitive Config / Local Setup
